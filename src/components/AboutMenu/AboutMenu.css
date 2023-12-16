@@ -21,11 +21,23 @@
     align-items:center ;
     justify-content: center;
     gap: 2rem;
-    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
     height: 80%;
     width: 50%;
     border-radius: 8rem;
 }
+
+.menu-context p{
+    font-size: .8vw;
+    font-weight: 100;
+}
+
+.menu-context h2{
+    font-weight: 300;
+}
+
+
 
 .menu-context .color-1,
 .menu-context .color-2,

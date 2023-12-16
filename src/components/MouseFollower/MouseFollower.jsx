@@ -14,7 +14,7 @@ const MouseFollower = () => {
             })
         })
     }
-    mousefollow()
+    mousefollow();
   return (
     <div>
         <div className="cursor"></div>

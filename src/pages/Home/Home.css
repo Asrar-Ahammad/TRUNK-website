@@ -101,3 +101,66 @@
   font-size: 1.2vw;
   font-weight: 300;
 }
+
+
+.section2{
+  min-height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.city-name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.city-name p{
+  transform: rotate(90deg);
+}
+
+.city-name2{
+  transform: rotate(-180deg);
+}
+.image-div{
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.image-div h1{
+  text-align: center;
+}
+
+.image-div>h1{
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 3vw;
+}
+
+.image-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.section2-heading>h1{
+  width: 150px;
+  text-align: right;
+}
+
+.image-content img{
+  margin: 0 3rem;
+  border-radius: 60%;
+}

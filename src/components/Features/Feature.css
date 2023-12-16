@@ -1,0 +1,42 @@
+.feature-container{
+    margin: 7rem 2rem;
+    display: flex;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    width: 4vw;
+    padding-top: 2rem;
+}
+
+.feature-content img{
+    height: 440px;
+    width: 1099px;
+}
+
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left: 1px solid black;
+    padding: 3rem;
+    margin:2rem 0;
+}
+
+.line{
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    margin: 2rem 0;
+}
+
+.heading h1{
+    font-weight: 300;
+}
+
+
