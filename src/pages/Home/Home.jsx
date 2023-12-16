@@ -71,6 +71,7 @@ const Home = () => {
           <p>Tokyo</p>
         </div>
       </div>
+      <div className="footer"></div>
     </>
   );
 };
