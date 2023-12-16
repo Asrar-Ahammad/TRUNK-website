@@ -1,0 +1,105 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  z-index: 999;
+  padding: 0 7rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+.menu-parent {
+  position: relative;
+  width: 7vw;
+  height: 7vw;
+  display: grid;
+  place-items: center;
+}
+
+.menu-icon-border {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M909.5 645q-63.5 145-201 200T425 891.5Q279 883 184.5 766T75 494.5q-15-154.5 94-267t261-153q152-40.5 270 59t195.5 233Q973 500 909.5 645Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22none%22 stroke=%22%236f6d63%22 stroke-width=%2211%22 d=%22M909.5 645q-63.5 145-201 200T425 891.5Q279 883 184.5 766T75 494.5q-15-154.5 94-267t261-153q152-40.5 270 59t195.5 233Q973 500 909.5 645Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  position: absolute;
+  animation: blob linear infinite 10s;
+}
+
+@keyframes blob {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.menu-icon {
+  position: absolute;
+  font-size: 1.5vw;
+}
+
+.nav-menu {
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+  min-height: 100%;
+  width: 45vw;
+ border-left: 1px solid black;
+  display: flex;
+  background: #ECE9E2;
+  flex-direction: column;
+  overflow-y:scroll ;
+  padding: 3rem 7rem;
+}
+
+.menu-list{
+  margin: 4rem 0;
+}
+
+.menu-list ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.menu-list ul li{
+  width: 100%;
+  padding:2.5rem 2.5rem 2.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.272);
+  font-size: 1.75vw;
+  font-weight: 200;
+}
+.menu-list ul li:nth-child(1){
+  padding: 0 2.5rem 2.5rem 0rem;
+}
+
+.menu-intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  text-align: center;
+  padding: 2rem 5rem;
+  font-weight: 200;
+}
+
+.menu-intro h4{
+  margin: 1.5rem 0;
+  font-weight: 300;
+}
+
+.menu-insta-icon{
+  margin: 1.5rem 0;
+}
+.nav-menu .menu-parent{
+  align-self: flex-end;
+}

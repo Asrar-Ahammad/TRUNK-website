@@ -1,0 +1,26 @@
+@font-face {
+  font-family: VR;
+  src: url(./assets/fonts/Voyage-Regular.f158d504.ttf);
+}
+
+@font-face {
+  font-family: wt;
+  src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: wt;
+  list-style: none;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background:#ECE9E2;
+}
