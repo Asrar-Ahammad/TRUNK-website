@@ -31,6 +31,7 @@
   background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M909.5 645q-63.5 145-201 200T425 891.5Q279 883 184.5 766T75 494.5q-15-154.5 94-267t261-153q152-40.5 270 59t195.5 233Q973 500 909.5 645Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22none%22 stroke=%22%236f6d63%22 stroke-width=%2211%22 d=%22M909.5 645q-63.5 145-201 200T425 891.5Q279 883 184.5 766T75 494.5q-15-154.5 94-267t261-153q152-40.5 270 59t195.5 233Q973 500 909.5 645Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
   position: absolute;
   animation: blob linear infinite 10s;
+  transition: all ;
 }
 
 @keyframes blob {

@@ -20,15 +20,15 @@ const NavBar = () => {
 
         <div className="menu">
           <img src="src/assets/images/stay-book-now.svg" alt="" />
-          <div className="menu-parent">
-            <div className="menu-icon-border"></div>
+          <div className="menu-parent" onClick={handleToggle}>
+            <div className="menu-icon-border" ></div>
             <CiMenuFries className="menu-icon" />
           </div>
         </div>
       </nav>
 {openMenu && (<div className="nav-menu">
-        <div className="menu-parent">
-          <div className="menu-icon-border"></div>
+        <div className="menu-parent" onClick={handleToggle}>
+          <div className="menu-icon-border" ></div>
           <IoCloseOutline className="menu-icon" />
         </div>
         <div className="menu-list">
